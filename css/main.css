@@ -1,0 +1,34 @@
+header {
+    margin-top: 2%;
+    /*border: 5px solid red;*/
+
+
+
+}
+
+.line-up {
+}
+
+.phone {
+    /*display: inline;*/
+    /*float: left;*/
+    /*float: left;*/
+
+
+}
+
+
+.search-area {
+    /*border: 5px solid red;*/
+    margin-top: 5px;
+}
+
+
+.site-text {
+    font-size: 1.8em;
+    margin-left: 10px;
+    color: #898989;
+}
+.green {
+    color: #58bd91;
+}
