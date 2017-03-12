@@ -1,3 +1,10 @@
+html, body {
+    height: 100%;
+}
+
+/* HEADER SECTION */
+
+
 header {
     margin-top: 2%;
     /*border: 5px solid red;*/
@@ -17,6 +24,10 @@ header {
 
 }
 
+.header-text {
+    color: #898989;
+}
+
 
 .search-area {
     /*border: 5px solid red;*/
@@ -28,7 +39,58 @@ header {
     font-size: 1.8em;
     margin-left: 10px;
     color: #898989;
+    font-family: 'Ranga', cursive;
+
 }
 .green {
     color: #58bd91;
 }
+
+    .shopping-cart p{
+        margin-top: -30px;
+        margin-left: 60px;
+    }
+
+/*  NAV SECTION*/
+
+#menu {
+    float: right;
+    /*border: 5px solid red;*/
+
+}
+
+    #menu i {
+        margin-left: 5%;
+    }
+
+ #logo {
+     height: 100%;
+     display: inline;
+     /*border: 5px solid red;*/
+ }
+
+    #logo img {
+        height: 35px;
+        width: auto;
+        float: left;
+    }
+
+    #logo h1 {
+        float: left;
+        font-family: 'Ranga', cursive;
+        margin-top: 0px;
+        margin-left: 15px;
+
+    }
+
+ #nav-menu {
+     display: inline;
+     float: right;
+
+ }
+
+    #nav-menu li {
+        float: left;
+        list-style-type: none;
+        margin-left: 5px;
+    }
