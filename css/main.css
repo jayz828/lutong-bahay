@@ -83,6 +83,10 @@ header {
 
     }
 
+
+    #menu i {
+        margin-left: 50px;
+    }
  #nav-menu {
      display: inline;
      float: right;
@@ -92,5 +96,40 @@ header {
     #nav-menu li {
         float: left;
         list-style-type: none;
-        margin-left: 5px;
+        /*margin-left: 35px;*/
     }
+
+    #nav-menu li:nth-child(1) {
+        margin-left: 45px;
+    }
+
+    #nav-menu li:nth-child(2) {
+        margin-left: 50px;
+    }
+
+    #nav-menu li:nth-child(3) {
+             margin-left: 35px;
+    }
+    #nav-menu li:nth-child(4) {
+        margin-left: 25px;
+    }
+
+
+    /*  CAROUSEL */
+
+#myCarousel {
+    background-color: #58bd91;
+}
+
+.carousel-details {
+    float: right;
+    color: white;
+
+}
+
+.image-carousel {
+    float: left;
+}
+
+
+
