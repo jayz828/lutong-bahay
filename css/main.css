@@ -185,7 +185,7 @@ header {
 
     .menu-img-container h3 {
         position: absolute;
-        top: 50%;
+        top: 30%;
         left: 0;
         width: 100%;
         display: inline-block;
@@ -207,7 +207,7 @@ header {
 
 .bar {
     position: absolute;
-    top: 55%;
+    top: 30%;
     /*border: 3px solid red;*/
     left: 30%;
     width: 160px;
@@ -229,19 +229,44 @@ header {
 }
 
 .menu-details {
-    /*margin-top: 30px;*/
+    margin-top: 30px;
     margin-bottom: 20px;
     border-radius: 4px;
-    border: 1px solid rgba(0,0,0,0.15)
+    border: 1px solid rgba(0,0,0,0.15);
+    padding: 12px 15px;
+    /*border: 5px solid red;*/
+
+
+}
+
+.dashed-border {
+    border-bottom: 1px dashed rgba(0,0,0,0.15);
+    /*border: 5px solid red;*/
+    /*width: 100%;*/
+    margin-left: -50px;
+    margin-right: -15px;
+
 
 }
 
     .menu-details li {
         list-style-type: none;
+        /*border-bottom: 1px dashed rgba(0,0,0,0.15);*/
+        padding-top: 10px;
+        /*border: 5px solid red;*/
+
+
+
+    }
+
+    .menu-details i {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 .menu-list-item {
     color: #fff;
+
 }
 
     .menu-list-item a {
@@ -250,6 +275,19 @@ header {
 
 .bg-red {
     background-color: #f75353;
+}
+
+.bg-green {
+    background-color: #51d466;
+}
+
+.bg-blue {
+    background-color: #32c8de;
+}
+
+.pull-right {
+    float: right;
+    padding-right: 10px;
 }
 
 
