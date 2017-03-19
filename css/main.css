@@ -294,5 +294,63 @@ header {
 }
 
 
+/*  CONTACT SECTION */
+
+.contact-child {
+    /*border: 5px solid red;*/
+
+
+}
+
+    .contact-child h3 {
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+
+    .contact-child img:not(.famous-dishes) {
+        width: 20%;
+    }
+
+    .contact-child button {
+        margin: 15px;
+    }
+
+    .contact-child i {
+
+    }
+
+.famous-dishes {
+    width: 50%;
+}
+
+/*.circle-icon {*/
+    /*background: #ffc0c0;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*border-radius: 50%;*/
+    /*text-align: center;*/
+    /*line-height: 100px;*/
+    /*vertical-align: middle;*/
+    /*padding: 30px;*/
+/*}*/
+
+.icon-background {
+    color: #f75353;
+}
+
+.small-icons {
+    font-size: 15px;
+    color: white;
+}
+
+/*.circle {*/
+    /*margin-left: 0px;*/
+    /*float: left;*/
+/*}*/
+
+
+
+
 
 
