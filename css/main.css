@@ -320,6 +320,10 @@ header {
 
     }
 
+    .contact-child input {
+        margin: 10px;
+    }
+
 .famous-dishes {
     width: 50%;
 }
@@ -335,8 +339,17 @@ header {
     /*padding: 30px;*/
 /*}*/
 
-.icon-background {
+
+.icon-red-background {
     color: #f75353;
+}
+
+.icon-green-background {
+    color: #51d466;
+}
+
+.icon-blue-background {
+    color: #32c8de;
 }
 
 .small-icons {
@@ -344,6 +357,41 @@ header {
     color: white;
 }
 
+.marker-icon {
+    float: left;
+}
+
+
+.contact-details {
+    margin-top: 30px;
+    margin-right: 50px;
+    /*float: right;*/
+}
+
+    .contact-details p {
+        /*margin-top: 1px;*/
+        /*margin-bottom: 1px;*/
+        padding: 0;
+        font-size: 0.8em;
+    }
+
+.contact-row {
+    /*margin-top: 5px;*/
+    /*margin-bottom: 5px;*/
+    border: 5px solid white;
+    padding: 0;
+    margin: -5px;
+}
+
+.hr-fix {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+/*
+
+*/
 /*.circle {*/
     /*margin-left: 0px;*/
     /*float: left;*/
