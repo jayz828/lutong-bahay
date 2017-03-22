@@ -31,7 +31,7 @@ header {
 
 .search-area {
     /*border: 5px solid red;*/
-    margin-top: 5px;
+    /*margin-top: 5px;*/
 }
 
 
@@ -41,6 +41,11 @@ header {
     color: #898989;
     font-family: 'Ranga', cursive;
 
+}
+
+
+.separator {
+    margin-top: 10px;
 }
 
 .test {
@@ -56,8 +61,15 @@ header {
 
     .shopping-cart p{
         margin-top: -30px;
-        margin-left: 60px;
+        margin-left: 0px;
+        /*float: right;*/
 
+
+    }
+
+    .shopping-cart i {
+        /*margin-right: 100px;*/
+        /*float: right;*/
     }
 
 /*  NAV SECTION*/
@@ -65,11 +77,24 @@ header {
 #menu {
     float: right;
     /*border: 5px solid red;*/
+    display: inline-block;
+    /*position: relative;*/
 
 }
 
+.menu-item {
+    float: left;
+    /*border: 5px solid red;*/
+
+
+}
+
+    .menu-item i {
+        text-align: center;
+    }
+
     #menu i {
-        margin-left: 5%;
+        /*margin-left: 5%;*/
     }
 
  #logo {
@@ -94,7 +119,7 @@ header {
 
 
     #menu i {
-        margin-left: 50px;
+        /*margin-left: 50px;*/
     }
  #nav-menu {
      display: inline;
