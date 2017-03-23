@@ -246,14 +246,18 @@ header {
     position: absolute;
     top: 30%;
     /*border: 3px solid red;*/
-    left: 30%;
-    width: 160px;
+    /*display: inline-block;*/
+    text-align: center;
+    left: 28%;
+    width: 180px;
 
 }
 
 .line-red {
 
     border: 3px solid #f75353;
+    /*text-align: center;*/
+    /*margin: auto 0;*/
     /*background-color: #f75353;*/
 }
 
@@ -434,17 +438,78 @@ header {
 
 /* MEDIA QUERIES */
 
+/*@media (min-width: 540px) and (max-width: 559px)  {*/
+
+    /*.bar {*/
+        /*left: 33%;*/
+    /*}*/
+
+/*}*/
+
+/*@media (min-width: 560px)  {*/
+
+    /*.bar {*/
+        /*left: 33%;*/
+    /*}*/
+
+/*}*/
+
+
+
+/*@media (min-width: 620px)  {*/
+
+    /*.bar {*/
+        /*left: 30%;*/
+    /*}*/
+
+/*}*/
+
+
+
+/*  THE ABOVE MEDIA QUERY WORKED.  RESEARCH: IT SEEMS THAT THE ELEMENT NEEDS TO HAVE THE COLUMN CLASS FOR
+    THE MEDIA QUERY TO WORK.
+*/
+
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+/*@media (min-width: @screen-xs-min) {*/
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+/*}*/
+
+/*!* Small devices (tablets, 768px and up) *!*/
+/*@media (min-width: @screen-sm-min) {*/
+
+
+
+/*}*/
+
+/*!* Medium devices (desktops, 992px and up) *!*/
+/*@media (min-width: @screen-md-min) {*/
+
+    /*.bar {*/
+        /*position: absolute;*/
+        /*top: 30%;*/
+        /*border: 3px solid red;*/
+        /*left: 30%;*/
+        /*width: 160px;*/
+
+    /*}*/
+
+
+/*}*/
+
+/*!* Large devices (large desktops, 1200px and up) *!*/
+/*@media (min-width: @screen-lg-min) {*/
+
+
+/*}*/
+
+
+
+
 
 
 
