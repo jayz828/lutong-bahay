@@ -97,6 +97,18 @@ header {
         /*margin-left: 5%;*/
     }
 
+
+
+    /*  make navigation disappear at lower resolutions*/
+
+
+.menu-item {
+    display: none;
+}
+
+/*.menu-icon, .menu-title {*/
+    /*!*display: none;*!*/
+/*}*/
  #logo {
      height: 100%;
      display: inline;
@@ -437,6 +449,39 @@ header {
 
 
 /* MEDIA QUERIES */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+    /*.menu-title {*/
+        /*display: none;*/
+    /*}*/
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+
+
+
+}
+
+@media (min-width: 500px) {
+
+
+    .menu-item {
+        display: inline;
+    }
+
+}
+
 
 /*@media (min-width: 540px) and (max-width: 559px)  {*/
 
