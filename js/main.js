@@ -6,6 +6,31 @@
 (function Main(){
 
 
+
+
+
+    // Mobile Menu event listener
+
+    var menuHamburger = document.getElementById("menu-hamburger");
+
+
+    menuHamburger.addEventListener("click", function() {
+
+        var mobileMenu = document.getElementById("mobile-menu");
+
+        mobileMenu.style.display = "inline";
+
+    });
+
+    var menuClose = document.getElementById("menu-close");
+
+    menuClose.addEventListener("click", function() {
+        var mobileMenu = document.getElementById("mobile-menu");
+
+        mobileMenu.style.display ="none";
+    });
+
+
     //var test = document.getElementsByClassName("menu-icon");
     //
     //console.log(test);

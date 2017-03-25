@@ -106,6 +106,26 @@ header {
     display: none;
 }
 
+
+#menu-hamburger {
+    float: right;
+}
+
+
+#mobile-menu {
+    display: none;
+
+
+}
+
+    #mobile-menu li {
+        list-style-type: none;
+    }
+
+
+#menu-close {
+    float: left;
+}
 /*.menu-icon, .menu-title {*/
     /*!*display: none;*!*/
 /*}*/
@@ -478,6 +498,14 @@ header {
 
     .menu-item {
         display: inline;
+    }
+
+    #menu-hamburger {
+        display: none;
+    }
+
+    #mobile-menu {
+        display: none !important;
     }
 
 }
