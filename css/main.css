@@ -82,6 +82,31 @@ header {
 
 }
 
+    }
+
+    #mobile-menu ul li {
+        width: 100%;
+
+
+        width: auto;
+
+    }
+#menu a:link, a:visited {
+    text-decoration: none;
+    color: #58bd91;
+
+}
+
+#mobile-menu a:link, a:visited {
+    text-decoration: none;
+    color: #58bd91;
+}
+
+#mobile-menu a:hover {
+    background-color: #58bd91;
+    color: #ffffff;
+
+}
 .menu-item {
     float: left;
     /*border: 5px solid red;*/
